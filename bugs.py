@@ -1,0 +1,87 @@
+from playsound3 import playsound
+import sys
+import time
+
+def typewriter_effect(text, delay=0.15):
+    for char in text:
+        sys.stdout.write(char)  
+        sys.stdout.flush()
+        time.sleep(delay)
+    print() 
+
+def main():
+    typewriter_effect("............")  
+    typewriter_effect("If you dont fight...you'll die")
+    typewriter_effect(".........")
+    typewriter_effect("Rest in peace.....")
+    typewriter_effect("Get up and go to work.....")
+    typewriter_effect(".............")
+    typewriter_effect("If you pull the trigger....you have to mean it")
+    typewriter_effect(".....")
+    typewriter_effect("If you said you come locked and loaded?")
+    typewriter_effect(".....")
+    typewriter_effect("I told you already....Im gonna kill you")
+    typewriter_effect("......")
+    typewriter_effect("He's a man of focus....")
+    typewriter_effect("Commitment....")
+    typewriter_effect("And sheer fucking will....")
+    typewriter_effect("Something that I dont see very much inside you")
+    typewriter_effect("John Wick....")
+    typewriter_effect("The Boogeyman?")
+    typewriter_effect("Well John wasnt exactly the boogeyman....")
+    typewriter_effect(".........")
+    typewriter_effect("He was the one you actually send to kill...")
+    typewriter_effect("The Fucking Boogeyman")
+    typewriter_effect("Who are you?")
+    typewriter_effect("Rick Grimes...")
+    typewriter_effect("Rick Grimes....you got something to tell me?")
+    typewriter_effect("You...You're gonna kick me out?")
+    typewriter_effect("I already made you a promise")
+    typewriter_effect("You still dont get it......")
+    typewriter_effect("NONE OF YOU DO!!....")
+    typewriter_effect("......")
+    typewriter_effect("We're the ones who lives....")
+    typewriter_effect("You...you just sit...and planned")
+    typewriter_effect(".........")
+    typewriter_effect("Starting right now....")
+    typewriter_effect("We have to live...in the real world....")
+    typewriter_effect("We have to control who lives here")
+    typewriter_effect("If you dont fight....you'll die")
+    typewriter_effect(".........")
+    typewriter_effect("People keep asking me if im back....")
+    typewriter_effect("And I dont really have the answer....")
+    typewriter_effect("But now yeah...")
+    typewriter_effect("Im thinking Im back")
+    typewriter_effect("He was one of the associates of our own")
+    typewriter_effect("He once killed three man with...")
+    typewriter_effect("He killed a man with...")
+    typewriter_effect("A Pencil...I know")
+    typewriter_effect("With a fucking pencil")
+    typewriter_effect("Its not what you did son")
+    typewriter_effect("Its who you did to...that angers me the most")
+    typewriter_effect("Who? The fucking nobody?")
+    typewriter_effect("That fucking nobody....is John Wick")
+    typewriter_effect("You want a war? Or you just want to give me a gun?")
+    typewriter_effect("Somebody please get this man....a gun")
+    typewriter_effect("7 bullets?")
+    typewriter_effect("7 millions....7 bullets round")
+    typewriter_effect("When Helen died I lost everything")
+    typewriter_effect("Until that dog arrived at my doorstep")
+    typewriter_effect("A final gift from my wife...")
+    typewriter_effect("An opportunity to ungrieve alone")
+    typewriter_effect("My wife...is my choice....")
+    typewriter_effect("My daughter....is my choice....")
+    typewriter_effect("My life.....is my choice")
+    typewriter_effect("Are you cooperating?")
+    typewriter_effect("Look at my eyes sir...you tell me")
+    typewriter_effect("....")
+
+
+
+
+if __name__ == "__main__":
+   
+    playsound("Rasputin - Boney M.mp3", block=False)
+    
+    
+    main()
